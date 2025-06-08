@@ -13,6 +13,6 @@ bool Card::isAce() const {
 }
 
 std::string Card::toString() const {
-    static const char* suits[] = { "·R¤ß", "¤è¶ô", "¶Â®ç", "±öªá" };
+    static const char* suits[] = { "æ„›å¿ƒ", "æ–¹å¡Š", "é»‘æ¡ƒ", "æ¢…èŠ±" };
     return  suits[suit] + rank;
 }
